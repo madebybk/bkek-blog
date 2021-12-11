@@ -1,6 +1,6 @@
 # BKEK Blog
 
-[BKEK Blog](https://bkek-blog.vercel.app/) is bootstrapped with [create-next-app](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and [Ghost CMS](https://ghost.org/) hosted on [Heroku](https://heroku.com). This site is currently deployed on Vercel at [bkek-blog.vercel.app](https://bkek-blog.vercel.app/)
+[BKEK Blog](https://bkekblog.vercel.app/) is bootstrapped with [create-next-app](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and [Ghost CMS](https://ghost.org/) hosted on [Heroku](https://heroku.com). This site is currently deployed on Vercel at [bkekblog.vercel.app](https://bkekblog.vercel.app/)
 
 ## Getting Started
 
