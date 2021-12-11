@@ -1,5 +1,6 @@
-import axios from 'axios';
+import axios from 'axios'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 import articleStyles from "../../styles/Article.module.css"
 
 
@@ -16,31 +17,33 @@ const getPost = async (slug: string) => {
 }
 
 export const getStaticProps = async ({ params }) => {
-	const post = await getPost(params.slug)
-	return {
-        props: {
-            post: post || null
-        },
-		revalidate: 60
-	}
+    const post = await getPost(params.slug)
+    return {
+        props: { post },
+        revalidate: 60
+    }
 }
 
 export const getStaticPaths = () => {
-	return {
-		paths: [],
-		fallback: true
-	}
+    return {
+        paths: [],
+        fallback: true
+    }
 }
 
 type Post = {
-	title: string
-	html: string
-	slug: string
+    title: string
+    html: string
+    slug: string
 }
 
-const Post: React.FC<{ post: Post }> = (props) => {
-    const { post } = props;
-    
+const Post: React.FC<{ post: Post }> = ({ post }) => {
+    const router = useRouter();
+
+    if (router.isFallback) {
+        return <h1>Loading...</h1>
+    }
+
     return (
         <div className={articleStyles.post}>
             <h1>{post.title}</h1>
