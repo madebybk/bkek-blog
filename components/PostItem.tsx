@@ -8,7 +8,7 @@ const PostItem = ({ post }) => {
                 <h3>{post.title}</h3>
                 <p>{post.custom_excerpt}</p>
             </a>
-        </Link>
+        </Link >
     )
 }
 
