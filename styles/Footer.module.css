@@ -1,0 +1,30 @@
+.blankLines {
+    margin-top: 100px;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+}
+
+@media (max-width: 650px) {
+    .blankLines {
+        margin-top: 70px;
+    }
+
+    .logo {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media (max-width: 450px) {
+    .blankLines {
+        margin-top: 50px;
+    }
+
+    .logo {
+        width: 10px;
+        height: 10px;
+    }
+}
