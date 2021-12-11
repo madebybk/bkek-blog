@@ -8,7 +8,6 @@ const Meta = ({ title, keywords, description }) => {
       <meta name='description' content={description} />
       <meta charSet='utf-8' />
       <link rel='icon' href='/bkek_logo.png' />
-      <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet"></link>
       <title>{title}</title>
     </Head>
   )

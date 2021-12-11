@@ -12,7 +12,7 @@ const About: React.FC<{}> = () => {
             />
             <p>
                 Welcome to our blog!
-                We launched this site very recently, and we're looking forward to start making some awesome content.
+                We launched this site very recently, and we&apos;re looking forward to start making some awesome content.
                 We started this blog mainly to share our memorable moments together along with our thoughts on fun, important, or inspiring topics.
             </p>
 

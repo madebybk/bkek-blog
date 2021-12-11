@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <div>
             <div className={footerStyles.blankLines}></div>
-            <a href="https://www.instagram.com/bkek.podcast/" target={'_blank'}>
+            <a href="https://www.instagram.com/bkek.podcast/" target='_blank' rel="noreferrer">
                 <div className={footerStyles.logo}>
                     <Image
                         src={igLogo}
