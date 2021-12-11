@@ -1,6 +1,6 @@
 import aboutStyles from "../../styles/About.module.css"
 import Image from "next/image"
-import profilePic from "../../public/bkek_photo.jpg"
+import profilePic from "../../public/bkek_profile.jpg"
 
 const About: React.FC<{}> = () => {
     return (
