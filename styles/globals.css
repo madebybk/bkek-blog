@@ -3,9 +3,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Raleway', sans-serif;
-  /* font-size: 1.2vw; */
-  /* text-rendering: optimizeLegibility; */
-  font-size: 2vmin;
+  font-size: 2.2vmin;
 }
 
 a {
@@ -25,9 +23,3 @@ img {
 figcaption {
   font-size: smaller;
 }
-
-/* @media all and (max-width: 25em) {
-  body {
-    font-size: 50%;
-  }
-} */

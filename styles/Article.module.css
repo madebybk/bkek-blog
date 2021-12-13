@@ -46,5 +46,6 @@
 @media (max-width: 850px) {
     .post {
         max-width: 90%;
+        font-size: 18px;
     }
 }
