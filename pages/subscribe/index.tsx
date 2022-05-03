@@ -37,7 +37,7 @@ const Subscribe: React.FC<{}> = () => {
             </h2>
             <label className='label'>
                 <p className='text-lg max-w-xl text-center m-auto leading-9'>
-                    Sign up for the newsletter, so you don't miss our latest blogs and updates!
+                    Sign up for the newsletter, so you don&apos;t miss our latest blogs and updates!
                 </p>
             </label>
             <div className='mt-5'>
