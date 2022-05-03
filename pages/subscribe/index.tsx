@@ -40,7 +40,7 @@ const Subscribe: React.FC<{}> = () => {
                     Sign up for the newsletter, so you don&apos;t miss our latest blogs and updates!
                 </p>
             </label>
-            <div className='mt-5'>
+            <div className={subscribeStyles.email}>
                 <input
                     onChange={(e) => {
                         setMail(e.target.value);
