@@ -3,6 +3,7 @@ import axios from "axios";
 import { toast } from "react-toastify";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import subscribeStyles from '../../styles/Subscribe.module.css';
 
 import { useState } from "react";
 
@@ -46,11 +47,13 @@ const Subscribe: React.FC<{}> = () => {
                     }}
                     type='email'
                     placeholder='Your email'
-                    className='input input-primary input-bordered'></input>
+                    className={subscribeStyles.inputEmail}
+                    >
+                </input>
                 <button
                     onClick={subscribe}
-                    className={`btn ml-3 ${loading ? "btn-disabled loading" : "btn-primary"}`}>
-                    I'm in!
+                    className={`${subscribeStyles.inputBtn} ${loading ? "btn-disabled loading" : "btn-primary"}`}>
+                    Send!
                 </button>
                 <ToastContainer />
             </div>
